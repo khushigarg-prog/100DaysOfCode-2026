@@ -132,10 +132,10 @@ Your personal folder must follow the `Name_SAPID` format precisely. Deviations c
 
 | Format | Status |
 |---|---|
-| `Amaan_500123456` | Correct |
-| `Amaan` | Incorrect — SAP ID missing |
-| `500123456` | Incorrect — name missing |
-| `AmaanRahman` | Incorrect — SAP ID missing |
+| `John_5900123XX` | Correct |
+| `John` | Incorrect — SAP ID missing |
+| `5900123XX` | Incorrect — name missing |
+| `JohnDoe` | Incorrect — SAP ID missing |
 
 Day folder names must also follow the standard exactly.
 
