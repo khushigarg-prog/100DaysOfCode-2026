@@ -141,8 +141,8 @@ Day folder names must also follow the standard exactly.
 
 | Format | Status |
 |---|---|
-| `Day 1`, `Day 2`, `Day 10` | Correct |
-| `day1`, `DAY1`, `Day_1`, `Day1` | Incorrect |
+| `Day_1`, `Day_2`, `Day_10` | Correct |
+| `day1`, `DAY1`, `Day 1`, `Day1` | Incorrect |
 
 ---
 
