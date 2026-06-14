@@ -68,10 +68,10 @@ Every participant works inside a single personal folder. The folder lives inside
 100DaysOfCode-2026/
 └── DSA/
     └── YourName_YourSAPID/
-        ├── Day 1/
+        ├── Day_1/
         │   ├── Question1_LeetCode.cpp
         │   └── Question2.cpp
-        ├── Day 2/
+        ├── Day_2/
         │   ├── Question1_LeetCode.py
         │   └── Question2.py
         └── ...
@@ -101,11 +101,11 @@ git clone https://github.com/YOUR_USERNAME/100DaysOfCode-2026.git
 cd 100DaysOfCode-2026
 
 # Create your folder structure
-mkdir -p "DSA/YourName_SAPID/Day 1"
+mkdir -p "DSA/YourName_SAPID/Day_1"
 
-# Add your solution files inside Day 1, then commit and push
+# Add your solution files inside , then commit and push
 git add .
-git commit -m "Day 1 Submission - YourName - SAPID"
+git commit -m " Submission - YourName - SAPID"
 git push origin main
 ```
 
@@ -113,7 +113,7 @@ git push origin main
 
 1. Open your fork on GitHub
 2. Click **Add file → Create new file**
-3. In the file path box, type: `DSA/YourName_SAPID/Day 1/Question1_LeetCode.cpp`
+3. In the file path box, type: `DSA/YourName_SAPID/Day_1/Question1_LeetCode.cpp`
    — GitHub will automatically create the intermediate folders
 4. Paste your solution and click **Commit changes**
 5. Repeat for `Question2`
@@ -142,7 +142,7 @@ Day folder names must also follow the standard exactly.
 | Format | Status |
 |---|---|
 | `Day_1`, `Day_2`, `Day_10` | Correct |
-| `day1`, `DAY1`, `Day 1`, `Day1` | Incorrect |
+| `day1`, `DAY1`, ``, `Day1` | Incorrect |
 
 ---
 
@@ -209,7 +209,7 @@ Before opening a Pull Request, verify each of the following:
 
 - [ ] Your folder is placed inside `DSA/`
 - [ ] Your folder is named in the `Name_SAPID` format
-- [ ] Day folders are named `Day 1`, `Day 2`, etc. (with a space)
+- [ ] Day folders are named `Day_1`, `Day_2`, etc. (without a space)
 - [ ] Both `Question1_LeetCode` and `Question2` are present in the day folder
 - [ ] Solution files are source code — no ZIP, PDF, or binary files
 - [ ] You have not modified any other participant's files
